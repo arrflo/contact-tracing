@@ -48,7 +48,7 @@ while True:
                 print ("Email: ", dictionary.get("Email"))
                 print ("Phone Number: ", dictionary.get("Phone Number"))
         if cont == 3:
-            a = input ("are you sure? (y/n)")
+            a = input ("are you sure? (y/n) ")
             if a == "y":
                 break
     #option2        
@@ -72,7 +72,7 @@ while True:
             print ("Phone Number: ", dictionary.get("Phone Number"))
     #option3
     if user__ == 3:
-        a = input ("are you sure? (y/n)")
+        a = input ("are you sure? (y/n) ")
         if a == "y":
             break
     
