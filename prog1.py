@@ -4,12 +4,12 @@
 #2 - search 
 #3 - exit (y/n)
 
-#print menu
-print ("------ Menu ------\n \n 1 - add an item \n 2 - search \n 3 - exit (y/n) \n")
-print ("------------------")
-print ()
-
 while True:
+    #print menu
+    print ("------ Menu ------\n \n 1 - add an item \n 2 - search \n 3 - exit (y/n) \n")
+    print ("------------------")
+    print ()
+
     #ask user what to do
     user__ = int(input ("What would you like to do? "))
     dictionary = {
@@ -51,6 +51,7 @@ while True:
             a = input ("are you sure? (y/n)")
             if a == "y":
                 break
+    #option2        
     if user__ == 2:
         ask = input("What would you like to search? (type 'all' for all data) ")
         if ask == "fullname" or ask == "Fullname":
@@ -69,6 +70,7 @@ while True:
             print ("Address: ", dictionary.get("Address"))
             print ("Email: ", dictionary.get("Email"))
             print ("Phone Number: ", dictionary.get("Phone Number"))
+    #option3
     if user__ == 3:
         a = input ("are you sure? (y/n)")
         if a == "y":
