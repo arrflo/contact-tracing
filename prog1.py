@@ -6,6 +6,7 @@
 
 while True:
     #print menu
+    print ()
     print ("------ Menu ------\n \n 1 - add an item \n 2 - search \n 3 - exit (y/n) \n")
     print ("------------------")
     print ()
