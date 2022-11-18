@@ -34,7 +34,32 @@ if user__ == 1:
     }
     print("Saved!")
     dictionary.update(info)
-    print(dictionary)
+    #insert print code
+    ques = input("Would you like to add another one?(y/n) ")
+    while ques == "y":
+        fullname = input("Fullname: ")
+        info = {
+            fullname:{
+                "Age":input("Age: "),
+                "Address": input("Address: "),
+                "Email": input ("Email: "),
+                "Phone Number": input("Phone Number: ")
+            }
+        }
+        print("Saved!")
+        dictionary.update(info)
+        #insert print code
+if user__ == 2:
+    search = input("Who would you like to search? (Enter their full name) ")
+    if search in dictionary.keys():
+        find = dictionary[search]
+        print(search)
+        print ("Age: ", find.get("Age"))
+        print ("Address: ", find.get("Address"))
+        print ("Email: ", find.get("Email"))
+        print ("Phone Number: ", find.get("Phone Number"))
+            
+
 
 
 
