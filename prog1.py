@@ -50,7 +50,6 @@ while True:
             print("Saved!")
             dictionary.update(info)
             ques = input("Would you like to add another one?(y/n) ")
-        #proceeds to 2
         while True:
             user1__ = int(input ("What would you like to do? "))
             if user1__ == 1:
