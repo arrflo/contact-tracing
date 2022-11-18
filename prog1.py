@@ -36,7 +36,6 @@ while True:
         }
         print("Saved!")
         dictionary.update(info)
-        #insert print code
         ques = input("Would you like to add another one?(y/n) ")
         while ques == "y":
             fullname = input("Fullname: ")
